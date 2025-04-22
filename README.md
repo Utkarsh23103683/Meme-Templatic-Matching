@@ -17,11 +17,13 @@ Evaluate model performance using key metrics: Accuracy, Precision, Recall, F1 Sc
 Template Collection: A curated set of diverse meme templates, selected for their unique layouts and repetitive design patterns.
 Preprocessing: Standardized image dimensions and text extraction steps to ensure consistency across all inputs.
 
-Feature Encoding:
+Feature Encoding-
+
 CNN: Extracts high-level visual features for label classification.
 CLIP: Translates both images and associated text into semantically rich vector embeddings for similarity analysis.
 
-🔗 Similarity Matching & Classification
+🔗 Similarity Matching & Classification-
+
 Each new meme is processed to extract visual and textual cues, transformed into numerical feature vectors.
 Cosine Similarity is used to measure the resemblance between new memes and known templates.
 Based on similarity scores, memes are matched to their closest template, and labels are predicted accordingly.
